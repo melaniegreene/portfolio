@@ -1,0 +1,271 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: transparent; 
+	-webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HelveticaNeue-Light';
+	src: url('../fonts/HelveticaNeue.dfont');
+	src: local('HelveticaNeue-Light'), local('Helvetica Neue Light'), local('HelveticaNeueLight'), url('../fonts/HelveticaNeue.dfont') format('truetype');
+}
+@font-face {
+	font-family: 'HelveticaNeue-Thin';
+	src: url('../fonts/HelveticaNeue.dfont');
+	src: local('HelveticaNeue-Thin'), local('Helvetica Neue Thin'), local('HelveticaNeueThin'), url('../fonts/HelveticaNeue.dfont') format('truetype');
+}
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url('../fonts/HelveticaNeue.dfont');
+	src: local('Helvetica Neue'), local('Helvetica Neue'), local('HelveticaNeue'), url('../fonts/HelveticaNeue.dfont') format('truetype');
+}
+@font-face {
+	font-family: 'Helvetica Neue Light';
+	src: url('../fonts/HelveticaNeue.dfont');
+	src: local('HelveticaNeue-Light'), local('Helvetica Neue Light'), local('HelveticaNeueLight'), url('../fonts/HelveticaNeue.dfont') format('truetype');
+}
+@font-face {
+	font-family: 'Helvetica Neue Thin';
+	src: url('../fonts/HelveticaNeue.dfont');
+	src: local('HelveticaNeue-Thin'), local('Helvetica Neue Thin'), local('HelveticaNeueThin'), url('../fonts/HelveticaNeue.dfont') format('truetype');
+}
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/HelveticaNeue.dfont');
+	src: local('Helvetica Neue'), local('HelveticaNeue'), local('HelveticaNeue'), url('../fonts/HelveticaNeue.dfont') format('truetype');
+}
+
+
+body {
+	font: 13px "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeueLight", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 300;
+	line-height: 20px;
+    font: -apple-system-body;
+    color: #505050;
+    -webkit-font-smoothing: antialiased;
+	background-color: #fff;
+}
+
+
+.clear {
+	clear: both;
+}
+
+ul li {
+	margin-bottom: 5px;
+}
+.divRow1 {
+	background-color: #fff;
+	height: 50px;
+	width: 100%;
+	float: left;
+	position:fixed;
+    top:0px;
+    left:0px;
+    z-index:1000;
+	opacity: .95; 
+}
+.divRow1_A {
+	background-color: #000;
+	margin-left: 10px;
+	height: 20px;
+	width: 190px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	font: 20px "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeueLight", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 300;
+	line-height: 19px;
+	color: #fff;
+}
+.divRow1_A a{
+	font: 20px "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeueLight", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 300;
+	line-height: 19px;
+	color: #fff;
+}
+.divRow1_B {
+	height: 20px;
+	width: 150px;
+	padding: 10px;
+	margin-left: 20px;
+	text-align: left;
+	float: left;
+	font: 11px "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeueLight", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 300;
+	line-height: 19px;
+}
+.divRow1_B a{
+	font: 11px "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeueLight", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 300;
+	line-height: 19px;
+	color: #505050;
+	text-decoration: none;
+}
+.divRow2 {
+	height: 350px;
+	width: 100%;
+	float: left;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6e6b4+0,ed9017+100 */
+background: #f6e6b4; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f6e6b4 0%, #ed9017 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #f6e6b4 0%,#ed9017 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #f6e6b4 0%,#ed9017 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.divRow2Container {
+	width: 800px;
+	height: 100%;
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 130px;
+	font: 18px "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeueThin", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 100;
+	line-height: 34px;
+	color: #333;
+}
+.divRow2ContainerTitle {
+	font: 36px "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeueThin", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 100;
+	color: #333;
+}
+.divRow4ContainerTitle {
+	font: 36px "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeueThin", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 100;
+	color: #fff;
+}
+.divRow3 {
+	height: 100%;
+	width: 100%;
+	margin-top: -50px;
+	margin-left: auto;
+  	margin-right: auto;
+	float: left;
+}
+.divRow3Container {
+	width: 1014px;
+	height: 100%;
+	margin-left: auto;
+  	margin-right: auto;
+	color: #707070;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+}
+div.divRow3Cards {
+	position: relative;
+	background-color: #fff;
+	height: 350px;
+	width: 300px;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	float: left;
+	-webkit-box-shadow: 10px 10px 21px -16px rgba(112,112,112,.5);
+	-moz-box-shadow: 10px 10px 21px -16px rgba(112,112,112,.5);
+	box-shadow: 10px 10px 21px -16px rgba(112,112,112,.5);
+	border: 1px solid #e8e8e8;
+}
+
+div.divRow3Cards a {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        text-decoration: none; /* No underlines on the link */
+        z-index: 10; /* Places the link above everything else in the div */
+        background-color: #FFF; /* Fix to make div clickable in IE */
+        opacity: 0; /* Fix to make div clickable in IE */
+        filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+    }
+.divRow3CardsA {
+	background-color: #fff;
+	height: 210px;
+	width: 300px;
+}
+.divRow3CardsB a{
+	font: 13px "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeueLight", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 300;
+	line-height: 19px;
+	color: #3f51b5;
+	font-weight: 700;
+}
+div.divRow3CardsB {
+	background-color: #fff;
+	height: 85px;
+	width: 260px;
+	margin: 20px;
+	font: 13px "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeueLight", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 300;
+	line-height: 19px;
+}
+
+div.divRow3CardsB:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .9;
+}
+
+
+.divRow4 {
+	height: 400px;
+	width: 100%;
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 70px;
+	float: left;
+	border-top: 1px solid #d1d1d1;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#606c88+0,3f4c6b+100;Grey+3D+%232 */
+background: #606c88; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #606c88 0%, #3f4c6b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #606c88 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #606c88 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.dash-container {
+	height: 400px;
+	width: 100%;
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	float: left;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#606c88+0,3f4c6b+100;Grey+3D+%232 */
+}
+
+.divRow4Container {
+	width: 800px;
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 50px;
+	font: 18px "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeueThin", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 100;
+	line-height: 34px;
+	color: #fff;
+	align-content: center;
+}
+
+.dash-divRow4Container {
+	width: 800px;
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 50px;
+	font: 18px "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeueThin", "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 100;
+	line-height: 34px;
+	color: #fff;
+	align-content: center;
+}
+
+.img-container {
+	margin-left: 20px;
+}
+
+.avatar {
+	float: left;
+	margin-right: 40px;
+}
